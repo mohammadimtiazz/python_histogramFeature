@@ -17,4 +17,6 @@ features:
   Range
   
   
-  histFeatureNumpy.py - > here all the features have been measure using numpy histogram lib
+  histFeature() - > here all the features have been measure using numpy histogram lib
+  
+  histFeatureCV() - > here all the features have been measure using openCV histogram lib. Added advantage is that a mask can be used for     ignoring certain data during histogram calculation. The mask is a binary image. It will consider black pixel location for ignoring data. 
